@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "biomejs.biome",
+    "streetsidesoftware.code-spell-checker",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "github.copilot",
+    "github.copilot-chat",
+    "github.github-vscode-theme",
+    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "xabikos.javascriptsnippets",
+    "ms-vsliveshare.vsliveshare",
+    "esbenp.prettier-vscode",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
