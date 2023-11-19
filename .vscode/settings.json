@@ -16,6 +16,11 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
 
+  // Tailwind CSS IntelliSense
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
   "search.smartCase": true,
 
   "terminal.integrated.fontSize": 14,
@@ -38,6 +43,9 @@
   "editor.codeActionsOnSave": {
     "quickfix.biome": true,
     "source.organizeImports.biome": true
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
   },
 
   "javascript.updateImportsOnFileMove.enabled": "always",
