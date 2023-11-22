@@ -41,12 +41,14 @@
   "editor.formatOnType": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "quickfix.biome": true,
-    "source.organizeImports.biome": true
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": true
   },
   "editor.quickSuggestions": {
     "strings": "on"
   },
+
+  "eslint.format.enable": false,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -65,17 +67,11 @@
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
 
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
+  "[javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // File Nesting
