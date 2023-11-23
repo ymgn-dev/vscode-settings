@@ -69,10 +69,7 @@
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
 
-  "[javascript][typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact][typescriptreact]": {
+  "[javascript][typescript][javascriptreact][typescriptreact][markdown][json][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
