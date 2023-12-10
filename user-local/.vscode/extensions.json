@@ -14,6 +14,7 @@
     "ms-vsliveshare.vsliveshare",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "prisma.prisma"
   ]
 }
