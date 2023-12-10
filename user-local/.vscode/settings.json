@@ -1,81 +1,85 @@
 {
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false,
-
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none",
+  // Workbench
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.reduceMotion": "on",
+  "workbench.startupEditor": "none",
   "workbench.tree.indent": 12,
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.reduceMotion": "on",
 
+  // Window
   "window.menuBarVisibility": "toggle",
 
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
 
-  // Tailwind CSS IntelliSense
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-
-  "extensions.ignoreRecommendations": false,
-
-  "search.smartCase": true,
-
-  "terminal.integrated.fontSize": 14,
+  // Terminal
   "terminal.integrated.fontFamily": "'HackGen Console NF', monospace",
+  "terminal.integrated.fontSize": 14,
 
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
+  // Editor
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true, "source.organizeImports": "always" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Intel One Mono', 'HackGen Console NF', monospace",
   "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "always",
-    "source.fixAll.eslint": true
-  },
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
+  "editor.insertSpaces": true,
   "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": { "strings": "on" },
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
 
-  "eslint.format.enable": false,
+  // Extensions
+  "extensions.ignoreRecommendations": false,
 
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.preferences.renameMatchingJsxTags": true,
+  // Files
+  "files.associations": { ".{prettier}rc": "json", "*.css": "tailwindcss" },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Search
+  "search.smartCase": true,
+
+  // JavaScript/TypeScript
   "javascript.autoClosingTags": true,
-
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.preferences.renameMatchingJsxTags": true,
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.autoClosingTags": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "bun.runtime": "~/.bun/bin/bun",
+  // Bun
   "bun.debugTerminal.enabled": true,
   "bun.debugTerminal.stopOnEntry": false,
+  "bun.runtime": "~/.bun/bin/bun",
 
-  // Extension configs
-  "github.copilot.enable": {
-    "*": true,
-    "markdown": true,
-    "plaintext": false,
-    "yaml": false
-  },
+  // Code Spell Checker
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
 
-  "[javascript][typescript][javascriptreact][typescriptreact][markdown][json][jsonc]": {
+  // ESLint
+  "eslint.format.enable": false,
+
+  // Prettier
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+
+  // GitHub Copilot
+  "github.copilot.enable": { "*": true, "markdown": true, "plaintext": false, "yaml": false },
+
+  // Per language
+  "[javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[prisma]": {

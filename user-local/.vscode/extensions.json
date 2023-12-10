@@ -1,19 +1,19 @@
 {
   "recommendations": [
     "biomejs.biome",
-    "oven.bun-vscode",
-    "streetsidesoftware.code-spell-checker",
-    "dsznajder.es7-react-js-snippets",
+    "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
     "figma.figma-vscode-extension",
     "github.copilot",
     "github.copilot-chat",
     "github.github-vscode-theme",
-    "xabikos.javascriptsnippets",
     "ms-vsliveshare.vsliveshare",
-    "esbenp.prettier-vscode",
-    "bradlc.vscode-tailwindcss",
+    "oven.bun-vscode",
+    "prisma.prisma",
+    "streetsidesoftware.code-spell-checker",
     "vscode-icons-team.vscode-icons",
-    "prisma.prisma"
+    "xabikos.javascriptsnippets"
   ]
 }
