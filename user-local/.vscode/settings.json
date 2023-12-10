@@ -49,6 +49,10 @@
   // Search
   "search.smartCase": true,
 
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
   // JavaScript/TypeScript
   "javascript.autoClosingTags": true,
   "javascript.preferences.renameMatchingJsxTags": true,
