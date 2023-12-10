@@ -49,11 +49,16 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
+  "editor.linkedEditing": true,
 
   "eslint.format.enable": false,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "javascript.autoClosingTags": true,
+
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.renameMatchingJsxTags": true,
 
   // Extension configs
   "github.copilot.enable": {

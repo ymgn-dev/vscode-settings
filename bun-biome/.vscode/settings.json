@@ -49,9 +49,14 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
+  "editor.linkedEditing": true,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "javascript.autoClosingTags": true,
+
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.renameMatchingJsxTags": true,
 
   "bun.runtime": "~/.bun/bin/bun",
   "bun.debugTerminal.enabled": true,
