@@ -1,0 +1,27 @@
+{
+  // Editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": true,
+  "editor.quickSuggestions": { "strings": "on" },
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+
+  // Files
+  "files.associations": { ".{prettier}rc": "json", "*.css": "tailwindcss" },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Code Spell Checker
+  "cSpell.allowCompoundWords": true,
+  "cSpell.language": "en,en-US",
+
+  // Per language
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json][jsonc][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
