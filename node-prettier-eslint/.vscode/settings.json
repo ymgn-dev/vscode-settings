@@ -17,12 +17,6 @@
   // ESLint
   "eslint.format.enable": false,
 
-  // Prettier
-  "prettier.printWidth": 120,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-
   // Per language
   "[javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
