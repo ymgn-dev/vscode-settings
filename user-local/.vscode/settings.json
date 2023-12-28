@@ -1,6 +1,7 @@
 {
   // Workbench
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editorAssociations": { "*.db": "default" },
   "workbench.iconTheme": "vscode-icons",
   "workbench.reduceMotion": "on",
   "workbench.startupEditor": "none",
@@ -21,7 +22,10 @@
 
   // Editor
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.codeActionsOnSave": { "source.fixAll.eslint": true, "source.organizeImports": "always" },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "always"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Intel One Mono', 'HackGen Console NF', monospace",
   "editor.fontSize": 14,
@@ -80,7 +84,17 @@
   "prettier.jsxSingleQuote": true,
 
   // GitHub Copilot
-  "github.copilot.enable": { "*": true, "markdown": true, "plaintext": false, "yaml": false },
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
+
+  // SQL Formatter
+  "SQL-Formatter-VSCode.dialect": "postgresql",
+  "SQL-Formatter-VSCode.expressionWidth": 120,
+  "SQL-Formatter-VSCode.keywordCase": "upper",
 
   // Per language
   "[javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
