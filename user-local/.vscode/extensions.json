@@ -15,6 +15,7 @@
     "renesaarsoo.sql-formatter-vsc",
     "streetsidesoftware.code-spell-checker",
     "vscode-icons-team.vscode-icons",
-    "xabikos.javascriptsnippets"
+    "xabikos.javascriptsnippets",
+    "yoavbls.pretty-ts-errors"
   ]
 }
