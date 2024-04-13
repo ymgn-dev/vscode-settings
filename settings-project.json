@@ -1,0 +1,56 @@
+{
+  // ========== Prettier - Code formatter ==========
+  "files.associations": {
+    ".{prettier}rc": "json"
+  },
+  "[javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ========== ESLint ==========
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "never"
+  },
+
+  // ========== Biome ==========
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  // ========== Tailwind CSS IntelliSense ==========
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "svelte": "html"
+  },
+
+  // ========== ENV ==========
+  "files.associations": {
+    "*.env*": "env"
+  },
+
+  // ========== SQL Formatter VSCode ==========
+  "SQL-Formatter-VSCode.dialect": "mysql",
+  "SQL-Formatter-VSCode.expressionWidth": 100,
+  "SQL-Formatter-VSCode.dataTypeCase": "upper",
+  "SQL-Formatter-VSCode.functionCase": "upper",
+  "SQL-Formatter-VSCode.identifierCase": "lower",
+  "SQL-Formatter-VSCode.keywordCase": "upper",
+  "[sql]": {
+    "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+  },
+
+  // ========== Svelte for VS Code ==========
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
+}

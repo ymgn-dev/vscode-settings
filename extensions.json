@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "Catppuccin.catppuccin-vsc-icons",
+    "liviuschera.noctis",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "streetsidesoftware.code-spell-checker",
+    "IronGeek.vscode-env",
+    "dbaeumer.vscode-eslint",
+    "GitHub.copilot",
+    "ms-vsliveshare.vsliveshare",
+    "esbenp.prettier-vscode",
+    "YoavBls.pretty-ts-errors",
+    "foxundermoon.shell-format",
+    "ReneSaarsoo.sql-formatter-vsc",
+    "svelte.svelte-vscode",
+    "jock.svg",
+    "bradlc.vscode-tailwindcss",
+    "biomejs.biome",
+    "oven.bun-vscode",
+    "janisdd.vscode-edit-csv"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "recommendations": [
-    "biomejs.biome",
-    "bradlc.vscode-tailwindcss",
-    "esbenp.prettier-vscode",
-    "prisma.prisma",
-    "streetsidesoftware.code-spell-checker"
-  ]
-}
