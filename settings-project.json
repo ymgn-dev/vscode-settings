@@ -24,7 +24,7 @@
 
   // ========== Tailwind CSS IntelliSense ==========
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.{p}css": "tailwindcss"
   },
   "editor.quickSuggestions": {
     "strings": "on"
